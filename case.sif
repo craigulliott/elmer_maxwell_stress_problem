@@ -31,7 +31,7 @@ End
 
 Body 2
   Target Bodies(1) = 2
-  Name = "Magnet S"
+  Name = "Iron"
   Equation = 1
   Material = 3
 End
@@ -71,6 +71,7 @@ End
 Solver 2
   Equation = MgDynPost
   Calculate Magnetic Field Strength = True
+  Calculate Maxwell Stress = Logical True
   Procedure = "MagnetoDynamics" "MagnetoDynamicsCalcFields"
   Exec Solver = Always
   Optimize Bandwidth = True
@@ -145,12 +146,9 @@ Material 2
 End
 
 Material 3
-  Name = "S"
+  Name = "Iron"
   Relative Permittivity = 1.0
-  Relative Permeability = 1.0997785406
-  Magnetization 1 = -890e3
-  Magnetization 2 = 0
-  Magnetization 3 = 0
+  Relative Permeability = 2000
 End
 
 Boundary Condition 1
