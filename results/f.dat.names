@@ -1,0 +1,30 @@
+Metadata for SaveLine file: results/f.dat
+Elmer version: 9.0
+Elmer revision: Release
+Elmer compilation date: 2024-02-07
+Solver input file: case.sif
+File started at: 2025/02/01 12:19:28
+Number of data nodes for each step
+  bc nodes: 0
+  polyline nodes: 201
+  circle nodes: 0
+  isocurve nodes: 0
+Data on different columns
+  1: Call count
+  2: Boundary condition
+  3: Node index
+  4: coordinate 1
+  5: coordinate 2
+  6: coordinate 3
+  7: magnetic flux density e 1
+  8: magnetic flux density e 2
+  9: magnetic flux density e 3
+ 10: magnetic field strength e 1
+ 11: magnetic field strength e 2
+ 12: magnetic field strength e 3
+ 13: maxwell stress e 1
+ 14: maxwell stress e 2
+ 15: maxwell stress e 3
+ 16: maxwell stress e 4
+ 17: maxwell stress e 5
+ 18: maxwell stress e 6
